@@ -1,0 +1,10 @@
+name: tap-xero-config
+recipe: lamp
+config:
+  webroot: .
+  php: "7.4"
+  xdebug: true
+
+proxy:
+  appserver:
+    - tap-xero-config.lndo.site
